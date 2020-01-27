@@ -22,7 +22,7 @@ class WorldCupRank extends Component {
     render() {
         return(
             <div className="container">
-                <div>
+                <div className="App-header">
                     <div>
                     {this.state.women.map(woman => 
                         <div className="card">
