@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Women in Soccer</h1>
+      <h1>Top Ranked Women in Soccer</h1>
       <WorldCupRank />
       </header>
     </div>
