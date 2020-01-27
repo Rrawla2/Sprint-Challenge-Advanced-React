@@ -23,6 +23,7 @@ class WorldCupRank extends Component {
 
     render() {
         return(
+            <div>
             {this.state.women.map(woman => 
             <div>
                 <p>Rank: {woman.id}</p>
@@ -32,7 +33,7 @@ class WorldCupRank extends Component {
             </div>
             
             )}
-
+        </div>
         );//return
 
     }//Render
