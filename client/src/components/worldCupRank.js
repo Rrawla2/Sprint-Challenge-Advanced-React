@@ -14,9 +14,7 @@ class WorldCupRank extends Component {
         .then(response => response.json())
         .then(women => {console.log("API response", women)
             this.setState({ ...this.state, women: women })
-            // this.state.women.map(woman => {
-            //     this.setState({ woman: woman})
-            // })
+
         })
         .catch(err => console.log("Error on Fetch: ", err))
     }
