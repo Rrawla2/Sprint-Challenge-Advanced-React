@@ -21,21 +21,21 @@ class WorldCupRank extends Component {
 
     render() {
         return(
-            <div className="container">
-                <header className="card header">
+            // <div className="container">
+                <div className="card header">
                     <div className="card">
                     {this.state.women.map(woman => 
                         <div>
+                            <h3 className="name">Name: {woman.name}</h3>
                             <p>Rank: {woman.id}</p>
-                            <h3>Name: {woman.name}</h3>
                             <p>Country: {woman.country}</p>
                             <p>Searches: {woman.searches}</p>
                         </div>
             
                      )}
                     </div>
-                </header>
-            </div>
+                </div>
+            // </div>
         );//return
 
     }//Render
