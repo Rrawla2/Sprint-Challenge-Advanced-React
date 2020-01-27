@@ -1,6 +1,7 @@
 import React from 'react';
 import WorldCupRank from "./components/WorldCupRank";
 import './App.css';
+import { waitForDomChange } from '@testing-library/react';
 
 function App() {
   return (

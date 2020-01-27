@@ -21,11 +21,11 @@ class WorldCupRank extends Component {
 
     render() {
         return(
-            // <div className="container">
-                <div className="card header">
-                    <div className="card">
+            <div className="container">
+                <div>
+                    <div>
                     {this.state.women.map(woman => 
-                        <div>
+                        <div className="card">
                             <h3 className="name">Name: {woman.name}</h3>
                             <p>Rank: {woman.id}</p>
                             <p>Country: {woman.country}</p>
