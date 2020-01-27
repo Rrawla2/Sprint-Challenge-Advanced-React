@@ -17,3 +17,9 @@ test('renders "Women in Soccer" text', () => {
   const soccerText = wrapper.getByText(/women in soccer/i);
   expect(soccerText).toEqual(soccerText);
 })
+
+test('renders "Alex Morgan" text', () => {
+  const wrapper = render(<worldCupRank />);
+  const player = wrapper.getByText(/alex morgan/i);
+  expect(player).toEqual(/alex morgan/i)
+})

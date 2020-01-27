@@ -1,5 +1,5 @@
 import React from 'react';
-import WorldCupRank from "./components/worldCupRank";
+import WorldCupRank from "./components/WorldCupRank";
 import './App.css';
 
 function App() {
