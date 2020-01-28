@@ -27,7 +27,7 @@ class WorldCupRank extends Component {
                     {this.state.women.map(woman => 
                         <div className="card">
                             <h3 className="name">Name: {woman.name}</h3>
-                            <p>Rank: {woman.id}</p>
+                            <p>Ranked #{woman.id + 1}</p>
                             <p>Country: {woman.country}</p>
                             <p>Searches: {woman.searches}</p>
                         </div>
